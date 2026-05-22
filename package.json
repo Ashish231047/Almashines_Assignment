@@ -1,0 +1,24 @@
+{
+  "name": "almashines-sdet-assignment",
+  "version": "1.0.0",
+  "description": "Automated test suite for AlmaShines Sign Up flow — SDET Take-Home Assignment",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:suite1": "npx playwright test --grep 'Suite 1'",
+    "test:suite2": "npx playwright test --grep 'Suite 2'",
+    "test:suite3": "npx playwright test --grep 'Suite 3'",
+    "test:suite4": "npx playwright test --grep 'Suite 4'",
+    "test:suite5": "npx playwright test --grep 'Suite 5'",
+    "test:suite6": "npx playwright test --grep 'Suite 6'",
+    "test:smoke": "npx playwright test --grep 'TC-001|TC-002|TC-003|TC-007|TC-010|TC-011'",
+    "test:report": "npx playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "axios": "^1.9.0",
+    "dotenv": "^16.5.0"
+  },
+  "keywords": ["playwright", "automation", "testing", "sdet", "almashines"],
+  "author": "",
+  "license": "ISC"
+}
